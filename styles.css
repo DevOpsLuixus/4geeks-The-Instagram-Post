@@ -1,0 +1,49 @@
+body {
+    background: black;
+
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+
+.post{
+    background: rgb(255, 255, 255);
+    margin: auto; /* centra el contenido */
+    width: 465px;
+    height: 640px;
+    
+    font-family: 'Comic Neue', cursive;
+}
+
+.post-header{
+    display:flex ;
+    padding: 5px;
+
+}
+
+i{
+    width: 10%;
+	height: 50%;
+    margin: 0%;
+    font-size: 200%;
+    padding: 5px;
+    text-align: right;
+}
+
+
+
+.post-header p {
+    width: 105%;
+    margin: 0%;
+    padding-top: 4PX;
+    
+}
+
+.post-body img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
